@@ -167,6 +167,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Marcus Westin";
+				TargetAttributes = {
+					2CEB3EBA1602563600548120 = {
+						DevelopmentTeam = GD282TKAZJ;
+					};
+				};
 			};
 			buildConfigurationList = 2CEB3EB51602563600548120 /* Build configuration list for PBXProject "ExampleApp-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -279,10 +284,12 @@
 		2CEB3ED41602563600548120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GD282TKAZJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleApp-iOS/ExampleApp-iOS-Prefix.pch";
 				INFOPLIST_FILE = "ExampleApp-iOS/ExampleApp-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jsbridge;
 				PRODUCT_NAME = "ExampleApp-iOS";
 				WRAPPER_EXTENSION = app;
 			};
@@ -291,10 +298,12 @@
 		2CEB3ED51602563600548120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GD282TKAZJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleApp-iOS/ExampleApp-iOS-Prefix.pch";
 				INFOPLIST_FILE = "ExampleApp-iOS/ExampleApp-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jsbridge;
 				PRODUCT_NAME = "ExampleApp-iOS";
 				WRAPPER_EXTENSION = app;
 			};
